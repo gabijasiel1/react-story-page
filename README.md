@@ -1,40 +1,55 @@
 # React Static Page with Git/GitHub
 
-Assignment: React app with a static story page and Git/GitHub workflow practice.
+React app with a static page layout (famous story) and Git/GitHub workflow practice.
 
-## Quick start
+## Description
 
-1. Go into the app folder: `cd story-app`
-2. Install dependencies (if needed): `npm install`
-3. Start the app: `npm start`
-4. Open [http://localhost:3000](http://localhost:3000)
+This project fulfills the assignment requirements:
 
-See **story-app/README.md** for full project description and setup steps.
+- React app created with `npx create-react-app` in the local repository
+- Story: **The Tortoise and the Hare**
+- **Header.js** – story title
+- **Content.js** – 2–3 paragraphs summarizing the story
+- **Footer.js** – moral/lesson of the story
+- Components imported and rendered in `App.js`
 
-## GitHub workflow (to do on your side)
+## Folder structure (required)
 
-1. **Create a new repository on GitHub**  
-   On GitHub: New repository → name it (e.g. `react-story-page`) → Create (no need to add README if you already have one).
+```
+src/
+├── components/
+│   ├── Header.js
+│   ├── Content.js
+│   └── Footer.js
+├── App.js
+└── index.js
+```
 
-2. **Clone the repository locally** (if you started from GitHub first):
+## Steps to set up and run the app
+
+1. Clone the repository:
    ```bash
-   git clone https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
-   cd YOUR_REPO_NAME
+   git clone https://github.com/gabijasiel1/react-story-page.git
+   cd react-story-page
    ```
-   If this project was created locally first (as here), you can instead add GitHub as a remote:
+
+2. Go into the app folder:
    ```bash
-   cd "React Static Page with GitGitHub"
-   git remote add origin https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
+   cd story-app
    ```
 
-3. **Commit and push** (from the repo root or from `story-app` depending on where you want the React app to live):
-   - If your repo root is this folder (with `story-app` inside):
-     ```bash
-     git add .
-     git commit -m "Add React story app - Tortoise and the Hare"
-     git branch -M main
-     git push -u origin main
-     ```
-   - Note: `story-app` was created with its own git repo; you may want to remove `story-app/.git` and add `story-app` contents to the parent repo, or push only the contents of `story-app` to the GitHub repo. Choose one structure and stick to it.
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
 
-4. **Submit** the GitHub repository URL (e.g. `https://github.com/YOUR_USERNAME/YOUR_REPO_NAME`) as required.
+4. Start the development server:
+   ```bash
+   npm start
+   ```
+
+5. Open [http://localhost:3000](http://localhost:3000) in your browser.
+
+---
+
+**GitHub repository:** https://github.com/gabijasiel1/react-story-page

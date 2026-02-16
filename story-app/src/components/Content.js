@@ -1,8 +1,6 @@
-import "./Content.css";
-
 function Content() {
   return (
-    <main className="story-content">
+    <main style={{ maxWidth: "700px", margin: "0 auto", padding: "2rem", lineHeight: 1.7 }}>
       <p>
         A hare was making fun of a tortoise for moving so slowly. The tortoise,
         tired of the teasing, challenged the hare to a race. The hare, confident
