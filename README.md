@@ -1,17 +1,10 @@
 # React Static Page with Git/GitHub
 
-A simple React app for a college assignment: a static story page using Header, Content, and Footer components.
+This is a React app I made for my assignment. It shows the story "The Tortoise and the Hare" on one page. I used three components: Header (the title), Content (a few paragraphs about the story), and Footer (the moral). I created the app with npx create-react-app and put the components in a folder called components inside src.
 
-## Description
+## How to run it
 
-- React app made with `npx create-react-app`
-- Story: **The Tortoise and the Hare**
-- Three components: Header (title), Content (summary), Footer (moral)
-- Components are used in `App.js`
-
-## How to set up and run
-
-1. Clone the repo:
+1. Clone the repo and go into the folder:
    ```
    git clone https://github.com/gabijasiel1/react-story-page.git
    cd react-story-page
@@ -30,6 +23,4 @@ A simple React app for a college assignment: a static story page using Header, C
 
 4. Open http://localhost:3000 in your browser.
 
----
-
-**GitHub:** https://github.com/gabijasiel1/react-story-page
+That's it.
